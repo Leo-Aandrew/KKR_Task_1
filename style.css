@@ -190,3 +190,68 @@
     text-align: center;
     padding: 35px;
 }
+@media screen and (max-width:400px){
+    .header .logo img{
+        width: 60px;
+        height: 60px;
+        margin-left: -0.01px;
+        margin: 15px;
+    }
+   
+    .header .nav{
+        display: none;
+    }
+    .header .register button{
+        width: 100px;
+        height: 40px;
+    }
+    .main{
+        font-size: 10px;
+    }
+    
+    .services{
+        width: 100%;
+        height: 1200px;
+    }
+
+    .services .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .services .container .one{
+        margin:10px;
+    }
+    .our{
+        width: 100%;
+        height: 1200px;
+    }
+    .our .image{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .our .image img{
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+    }
+    .about{
+        width: 100%;
+        height: 1200px;
+    }
+    .about .side{
+        display: flex;
+        flex-direction: column;
+    }
+    .about .side .ima{
+        margin-left: -150px;
+    }
+    .end{
+        width: 100%;
+        height: 700px;
+    }
+}
